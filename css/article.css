@@ -26,11 +26,23 @@
 
 .Iconography:hover{
     transform: rotate(80deg);
-    animation: anime 1.5s infinite alternate ease-in-out;
+    animation: anime 1.2s infinite alternate ease-in-out;
+    overflow: hidden;
 }
 
 .animation:hover {
     transition: all 1.5s ease-in-out;
-    transform: scale(1.20); 
+    transform: scale(1.05); 
+    cursor: pointer;
+    
+}
+
+.post-box:hover{
+    overflow: hidden;
+}
+
+.btn:hover{
+    transition: all 1.2s ease-in-out; 
+    transform: scale(1.03); 
     cursor: pointer;
 }
