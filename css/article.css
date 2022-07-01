@@ -25,7 +25,7 @@
 }
 
 .Iconography:hover{
-    transform: rotate(80deg);
+    transform: rotate(90deg);
     animation: anime 1.2s infinite alternate ease-in-out;
     overflow: hidden;
 }
@@ -46,3 +46,56 @@
     transform: scale(1.03); 
     cursor: pointer;
 }
+
+/* .audio-container{
+    width: 600px;
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.3);
+    font-family: Roboto, sans-serif;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.audio-container .audio{
+    background: #222;
+    width: 100%;
+    height: 130px;
+}
+
+.audio-container .track-name{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+
+.audio-btn{
+    padding: 10px;
+}
+.audio-container .buttons .play-btn .fa-pause, .audio-container .buttons .mute-btn .fa-volume-mute{
+    display: none;
+}
+
+.audio-container .buttons .play-btn .playing .fa-pause{
+    display: inline-block;
+}
+
+.audio-container .buttons .play-btn .playing .fa-play{
+    display: none;
+}
+
+
+
+.audio-container .buttons .mute-btn .muted .fa-volume-mute{
+    display: inline-block;
+}
+
+
+.audio-container .buttons .mute-btn .muted .fa-volume-high{
+    display: none;
+} */

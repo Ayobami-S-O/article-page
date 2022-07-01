@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/b353e23091.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Kodecamp Blog</title>
 </head>
 <body>
@@ -138,13 +139,42 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- blog audio -->
+
+                    <!-- <div class="audio-container">
+                        <div class="track-name">Track Name</div>
+
+                        <div class="audio"></div>
+
+                        <div class="buttons">
+                            <span class="play-btn audio-btn playing">
+                                <i class="fa-solid fa-play"></i>
+                                <i class="fa-solid fa-pause"></i>
+                            </span>
+                            <span class="stop-btn audio-btn">
+                                <i class="fa-solid fa-stop"></i>
+                            </span>
+                            <span class="mute-btn audio-btn muted">
+                                <i class="fa-solid fa-volume-high"></i>
+                                <i class="fa-solid fa-volume-mute"></i>
+                            </span>
+                            <input type="range" min="0" max="10" step="1" value="0.5" class="volum-slider">
+                        </div>
+                    </div> -->
                     <div class="blog-audio">
-                        <audio controls autoplay>
-                            <source src="https://naijafinix.com/wp-content/uploads/2021/04/Beautiful-Nubia-Seven-Lifes-via-Naijafinix.com_.mp3?_=1" type="audio/mp3">
-                            <source src="https://naijafinix.com/wp-content/uploads/2021/04/Beautiful-Nubia-Seven-Lifes-via-Naijafinix.com_.mpeg?_=1" type="audio/mpeg">
-                          Your browser does not support the audio element.
-                          </audio>                   
+                        <div class="audio">
+                      <audio controls autoplay>
+                                <source src="audio/track1.mp3" type="audio/mp3">
+                                <source src="audio/track1.ogg" type="audio/ogg">
+                              Your browser does not support the audio element.
+                              </audio>      
+                        </div>                   
                      </div>
+
+
+
+                     <!-- Article section -->
                      <div class="article">
                         <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit neque pellentesque eu cursus nam id amet vitae molestie. In convallis dolor tellus donec. Tincidunt pharetra id mus velit, imperdiet lacinia ut est risus. Pellentesque imperdiet pretium facilisis amet, volutpat faucibus at in nunc. Velit nunc ac ipsum ullamcorper magna. Semper luctus lacinia scelerisque id nibh ultrices eget in nunc. Ac sed vel et id nullam id. Fringilla netus lacus, etiam elementum tortor. Risus, vitae et euismod aliquet posuere auctor. Elit sed sapien quis convallis faucibus adipiscing eu laoreet laoreet. Eget ullamcorper mus tellus ullamcorper vitae consectetur. Consectetur amet, ut volutpat lorem est, dolor egestas aliquam. Pellentesque auctor suspendisse sit in suspendisse quam. In cursus ut euismod quam.
                         </p>
@@ -411,7 +441,11 @@
             </div>
         </div>
     </section>
+
     
+    
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
     <script src="js/article.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
