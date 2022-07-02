@@ -364,6 +364,69 @@
         </div>
     </section>
 
+    <!-- Comment section -->
+    <div class="container">
+        <div class="comment-sec">
+            <h1>Leave A Comment</h1>
+            <div class="form bg-light p-4 rounded">
+                <input type="text" placeholder="Enter your name" class="name p-2 rounded">
+                <div class="input-group d-flex">
+                    <input type="text" class="input rounded p-2 mt-2" placeholder="Write a comment" aria-label="Recipient's username">
+                    <span class="button p-2 bg-primary rounded mt-2">Post Comment</span>
+                </div>
+            </div>
+            <div class="comments">
+                <div class="comment-container" id="first-comment">
+                    <div class="info bg-light p-4 rounded mt-3">
+                        <div class="profile-head d-flex">
+                            <h6 class="profile-tag rounded-circle d-flex justify-content-center p-1 m-1">AA</h6>
+                            <div class="profile-info ms-2">
+                                <span class="name">${e.name}</span>
+                                <div class="date">${e.date}</div>
+                            </div>
+                        </div>
+                        <div class="profile-body">
+                            <p>${e.comment}</p>
+                        </div><hr>
+                        <div class="reply-icons">
+                            <i class="fa-solid fa-angles-up"></i>
+                            <span class="hide-reply me-2">Hide all Replies</span>
+                            <span class="reply-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"/>
+                                    <span>Reply</span>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <span class="reply-input hide-input" dataset="first-comment">
+                        <input type="text" placeholder="Name" class="commenter rounded">
+                        <input class="rounded" type="text" placeholder="Send a Reply">
+                        <button class="rounded">Send</button>
+                    </span>
+                    <div class="replies-sec d-flex justify-content-end mt-5" id="first-reply">
+                        <ul class="list-items">
+                            <li>
+                                <div class="replies bg-light p-4 rounded mt-3">
+                                    <div class="profile-head d-flex">
+                                        <h6 class="profile-tag rounded-circle d-flex justify-content-center p-1 m-1">AA</h6>
+                                        <div class="profile-info ms-2">
+                                            <span class="name">John Doe</span>
+                                            <div class="date">13 December 2020 - 19:35</div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, eum.</p>
+                                    </div><hr>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Newsletter section -->
     <section id="newsletter" class="py-5  img-fluid" style="background-image: url(img/footer-image.png); background-position: center; background-size: cover;">
@@ -447,6 +510,7 @@
 
     <script src="https://unpkg.com/wavesurfer.js"></script>
     <script src="js/article.js"></script>
+    <script src="js/comment.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

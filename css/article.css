@@ -99,3 +99,77 @@
 .audio-container .buttons .mute-btn .muted .fa-volume-high{
     display: none;
 } */
+
+
+body {
+    background: #f0f1f3;
+}
+
+.comment-sec {
+    width: 80%;
+}
+
+.input {
+    width: 70%;
+}
+
+.button {
+    cursor: pointer;
+    margin-left: 20px !important;
+}
+
+.profile-tag {
+    width: 30px;
+    height: 5vh;
+    background: rgb(55, 233, 55);
+}
+
+.name {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.reply-icons,
+.reply-input {
+    float: right;
+}
+
+.date, 
+.reply-icons * {
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+.reply-input {
+    font-size: 1rem;
+}
+
+.hide-input {
+    display: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+#first-reply {
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .replies-sec {
+        width: 100%;
+    }
+
+    .button {
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .comment-sec {
+        width: 100%;
+    }
+
+}
+
