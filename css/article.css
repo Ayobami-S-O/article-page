@@ -12,23 +12,25 @@
 }
 
 
-@media(max-width = 769px){
-    #article-section .row .Iconography img, p{
-        display: none;
-    }
-}
 
-@media(max-width = 426px){
-    #article-section .post-card img{
-        width: 100%;
-    }
-}
 
 .Iconography:hover{
     transform: rotate(90deg);
     animation: anime 1.2s infinite alternate ease-in-out;
     overflow: hidden;
 }
+
+.book, .share-btn {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    cursor: pointer;
+  }
+
+  .share-btn {
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    cursor: pointer;
+  }
 
 .animation:hover {
     transition: all 1.5s ease-in-out;
@@ -156,7 +158,13 @@ ul li {
     color: red;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media(max-width = 769px){
+    #article-section .row .Iconography img, p{
+        display: none;
+    }
+
     .replies-sec {
         width: 100%;
     }
@@ -166,10 +174,12 @@ ul li {
     }
 }
 
-@media only screen and (max-width: 426px) {
-    .comment-sec {
+@media(max-width = 426px){
+    #article-section .post-card img{
         width: 100%;
     }
 
+    .comment-sec {
+        width: 100%;
+    }
 }
-
