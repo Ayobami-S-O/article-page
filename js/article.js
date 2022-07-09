@@ -185,16 +185,11 @@ function hideInput() {
 hideInput();
 
 
-let book = document.querySelector(".Iconography");
 
-for (let i = 0; i < book.length; i++)
-  book[i].addEventListener("click", function () {
-    book[i].style.color = "blue";
-  });
 
-function bookFunction(){
-    document.getElementById("book").getElementsByClassName.color = "black"
-}
+// function bookFunction(){
+//     document.getElementById("book").getElementsByClassName.color = "black"
+// }
 
 
 // var audioTrack = WaveSurfer.create({
