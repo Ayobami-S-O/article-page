@@ -79,7 +79,7 @@
                 Categories
               </a>
               <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#latest-article">Latest Article</a></li>
+                <li><a class="dropdown-item" href="article.html">Latest Article</a></li>
                 <li><a class="dropdown-item" href="trending.html">Trending</a></li>
                 <li><a class="dropdown-item" href="#popular">Popular</a></li>
                 <li><a class="dropdown-item" href="#start-ups">Start Ups</a></li>
@@ -212,11 +212,11 @@
               <p>32K</p>
              </div>
             <div>
-              <a href=""><i class="fa-solid fa-bookmark fs-3 book Iconography"></i></a>
+              <i class=" book fa-solid fa-bookmark fs-3  Iconography" onclick="bookmarkBtn()"></i>
               <p>12K</p>
             </div>
             <div>
-             <a href=""><i class="fa-solid fa-share-nodes fs-3 share-btn Iconography"></i></a>
+             <i class="fa-solid fa-share-nodes fs-3 share-btn Iconography" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
               <p>20k</p>
             </div>
           </div>
@@ -614,6 +614,119 @@
     <div class='overlay hidden'></div>
   </section>
   <!-- End of Sign Up Modal -->
+
+
+  <!-- share Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-light border-0">
+          <h5 class="modal-title" id="exampleModalLabel">Share Article</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-light">
+          <div class="justify content-center d-flex flex-column">
+          
+           <div class="card border-0 rounded mb-4 w-75 ms-auto me-auto ">
+            <div class="d-flex flex-column flex-md-row">
+              <img src="img/landing-page-image/share-pix.png" class="img-fluid zoom ">
+              <div class=" bg-white card-body ">
+                <h5 class="card-title mb-1">UI/UX</h5>
+                <small class="text-muted" style="font-size: 12px"
+                  >June 26, 2022 . 5mins read</small
+                >
+                <h6 class="my-2">
+                  The title of the article or heading should be here
+                </h6>
+                <a href="#" class="text-decoration-none"
+                ><div class="d-flex">
+                  <p class="text-primary me-2 mb-0" style="font-size: 12px">
+                    <a href="article.html" class="text-decoration-none">Read more</a>
+                  </p>
+                  <i
+                    class="fa-solid fa-arrow-right-long text-primary"
+                  ></i></div
+              ></a>
+              </div>
+                        </div>
+            
+            </div>
+            
+           </div>
+            <div class="text-center latest-article-size w-75 ms-auto me-auto signin-input">
+             
+              <a
+              href="https://facebook.com"
+                target="_blank"
+                class="text-dark text-decoration-none"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center p-3 rounded border ms-auto me-auto mb-2"
+                >
+                  <img
+                    src="img/landing-page-image/facebook icon.png"
+                    class="kodecamp-img"
+                  />
+                  <p class="ps-2 mb-1 ">Share on Facebook</p>
+                </div>
+              </a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                class="text-dark text-decoration-none"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center p-3 rounded border ms-auto me-auto mb-2"
+                >
+                  <img
+                    src="img/landing-page-image/twitter icon.png"
+                    class="kodecamp-img"
+                  />
+                  <p class="ps-2 mb-1 ">Share on Twitter</p>
+                </div>
+              </a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                class="text-dark text-decoration-none"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center p-3 rounded border ms-auto me-auto mb-2"
+                >
+                  <img
+                    src="img/landing-page-image/instagram.png"
+                    class="kodecamp-img"
+                  />
+                  <p class="ps-2 mb-1 ">Share on Instagram</p>
+                </div>
+              </a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                class="text-dark text-decoration-none"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center p-3 rounded border ms-auto me-auto mb-2"
+                >
+                  <img
+                    src="img/landing-page-image/linkedln.png"
+                    class="kodecamp-img"
+                  />
+                  <p class="ps-2 mb-1 ">Share on Linkedin</p>
+                </div>
+              </a>
+              <div class=" pt-2 w-100">
+                <input type="text" placeholder="Kodeblog.com/Trending/Figma_new_features " class=" py-2  bg-secondary rounded border-0 trending-input">
+                <button class="btn btn-primary m-negative p-1">Copy link</button>
+              </div>
+      
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
 
   <!-- Start of Footer -->
   <section id="footer" class="py-5 py-5">

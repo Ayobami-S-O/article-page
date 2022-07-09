@@ -4,6 +4,8 @@ let value = "";
 let add = document.querySelectorAll("#change");
 let count = document.querySelectorAll("#count");
 
+
+
 for (let i = 0; i < add.length; i++) {
   add[i].addEventListener("click", function () {
     value = count[i].innerHTML;
@@ -16,6 +18,9 @@ for (let i = 0; i < add.length; i++) {
     }
   });
 }
+
+
+
 
 function rotateChevron() {
   document.querySelector(".fa-chevron-down").style.transform = "rotate(180deg)";
@@ -203,3 +208,7 @@ accountDrop.addEventListener('click', function() {
   accountList.classList.toggle('account-list-show');
 }
 )
+
+function bookmarkBtn (){
+  document.querySelector(".book").style.color = "black"
+}
