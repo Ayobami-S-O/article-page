@@ -28,7 +28,7 @@ function displayItems() {
         details += `<div class="comment-container" id="first-comment" data-select="first-reply" data-hide="hide-btn">
                     <div class="info bg-light p-4 rounded mt-3">
                         <div class="profile-head d-flex">
-                            <h6 class="profile-tag rounded-circle d-flex justify-content-center p-1 m-1">AA</h6>
+                            <h6 class="profile-tag rounded-circle d-flex justify-content-center align-items-center text-light p-1 m-1">AA</h6>
                             <div class="profile-info ms-2">
                                 <span class="name">${e.name}</span>
                                 <div class="date">${e.date}</div>
@@ -51,9 +51,9 @@ function displayItems() {
                         </div>
                     </div>
                     <span class="reply-input hide-input" dataset="first-comment">
-                        <input type="text" placeholder="Name" class="commenter rounded">
-                        <input class="comment-reply rounded" type="text" placeholder="Send a Reply">
-                        <button class="send rounded">Send</button>
+                        <input type="text" placeholder="Name" class="commenter rounded p-1">
+                        <input class="comment-reply rounded p-1" type="text" placeholder="Send a Reply">
+                        <button class="send bg-primary rounded p-1">Send</button>
                     </span>
                     <div class="replies-sec d-flex justify-content-end mt-5">
                         <ul class="list-items"  dataset="first-reply" id="hide-btn">

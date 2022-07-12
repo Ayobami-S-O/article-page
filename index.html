@@ -65,7 +65,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto">
             <li class="nav-item active">
-              <a class="nav-link text-primary mx-2" href="index.html">Browse <span class="sr-only">(current)</span></a>
+              <a class="nav-link text-primary mx-2" href="home.html">Browse <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark mx-2" href="trending.html">Trending</a>
@@ -274,7 +274,7 @@
                     </div> -->
                     <div class="blog-audio">
                       <div class="audio">
-                    <audio controls autoplay>
+                    <audio controls>
                               <source src="audio/track1.mp3" type="audio/mp3">
                               <source src="audio/track1.ogg" type="audio/ogg">
                             Your browser does not support the audio element.
@@ -326,8 +326,8 @@
                             </div>
                             <h6 class="fw-bold" style="color: #042554;">The title of the article or heading should be here</h6>
                               <a href="#" class="text-decoration-none"><div class="d-flex">
-                                  <p class="text-primary me-2 pt-1" style="font-size: 12px;">Read more</p>
-                                  <i class="bi bi-arrow-right m3-4 mb-3"></i>
+                                <a href="article.html" class=" nav-link text-primary me-2 pt-1" style="font-size: 12px;">Read more</a> 
+                                <i class="bi bi-arrow-right m3-4 mb-3"></i>
                               </div></a>
                           </div>
                         </div>
@@ -351,7 +351,7 @@
                             <h6 class="fw-bold" style="color: #042554;">The title of the article or 
                               heading should be here</h6>
                               <a href="#" class="text-decoration-none"><div class="d-flex">
-                                  <p class="text-primary me-2 pt-1" style="font-size: 12px;">Read more</p>
+                                  <a href="article.html" class=" nav-link text-primary me-2 pt-1" style="font-size: 12px;">Read more</a> 
                                   <i class="bi bi-arrow-right m3-4 mb-3"></i>
                               </div></a>
                           </div>
@@ -376,8 +376,8 @@
                             <h6 class="fw-bold" style="color: #042554;">The title of the article or 
                               heading should be here</h6>
                               <a href="#" class="text-decoration-none"><div class="d-flex">
-                                  <p class="text-primary me-2 pt-1" style="font-size: 12px;">Read more</p>
-                                  <i class="bi bi-arrow-right m3-4 mb-3"></i>
+                                <a href="article.html" class=" nav-link text-primary me-2 pt-1" style="font-size: 12px;">Read more</a> 
+                                <i class="bi bi-arrow-right m3-4 mb-3"></i>
                               </div></a>
                           </div>
                         </div>
@@ -478,11 +478,11 @@
   <div class="comment-sec">
       <h1>Leave A Comment</h1>
       <div class="form bg-light p-4 rounded">
-          <input type="text" placeholder="Enter your name" class="name p-2 rounded">
+          <input type="text" placeholder="Enter your name" class="name p-2 rounded col-12">
           <div class="input-group d-flex">
-              <input type="text" class="input rounded p-2 mt-2" placeholder="Write a comment" aria-label="Recipient's username">
-              <span class="button p-2 bg-primary rounded mt-2">Post Comment</span>
+              <textarea type="text" class="input rounded p-2 my-2" placeholder="Write a comment" aria-label="Recipient's username" rows="4"> </textarea>
           </div>
+          <div class="button p-2 bg-primary text-white rounded mt-1 col-lg-3 text-center">Post Comment</div>
       </div>
       <div class="comments">
           <div class="comment-container" id="first-comment">

@@ -11,9 +11,6 @@
     --secondary: #669E00;
 }
 
-
-
-
 .Iconography:hover{
     transform: rotate(90deg);
     animation: anime 1.2s infinite alternate ease-in-out;
@@ -112,12 +109,12 @@ body {
 }
 
 .input {
-    width: 70%;
+    width: 100%;
 }
 
 .button {
     cursor: pointer;
-    margin-left: 20px !important;
+    /* margin-left: 20px !important; */
 }
 
 .profile-tag {
